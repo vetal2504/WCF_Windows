@@ -31,7 +31,7 @@ namespace WindowsService1
         {
             //string path = Directory.GetCurrentDirectory();
             //FileInfo file = new FileInfo("C:\\Windiws\\file.txt");
-            using (StreamWriter sw = new StreamWriter(@"C:\Windows\file.txt", true, System.Text.Encoding.Default))
+            using (StreamWriter sw = new StreamWriter(@"D:\file.txt", true, System.Text.Encoding.Default))
             {
                 sw.WriteLine("\\n");
                 sw.Write(Console.ReadLine());
